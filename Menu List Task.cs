@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Menu_Task_List
 {
@@ -127,16 +124,16 @@ namespace Menu_Task_List
                         }
                        
                     }
-                    if(checker)
-                    {
-
-                    }
-                    else
+                    if(!checker)
                     {
                         Console.WriteLine("\n------------------------");
                         Console.WriteLine($"The number is not exist");
                         Console.WriteLine("\n------------------------");
                     }
+                    
+                    
+                        
+                    
 
                 }
                 else if (selection == 'C')
